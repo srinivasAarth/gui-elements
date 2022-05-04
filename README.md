@@ -65,7 +65,7 @@ Run the storybook by
 
 ```
 yarn install
-yarn storybook
+yarn storybook:start
 ```
 
 If you want to include Jest test results into the Storybook, run `yarn test:generate-output` before  `yarn storybook`.
