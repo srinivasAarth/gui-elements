@@ -13,11 +13,6 @@ export { firstNonEmptyLine } from "./ContentBlobToggler/StringPreviewContentBlob
 export { ElapsedDateTimeDisplay } from "./DateTimeDisplay/ElapsedDateTimeDisplay";
 export { Markdown } from "./markdown/Markdown";
 export { ReactFlow } from "./react-flow/ReactFlow/ReactFlow";
-export { StickyNoteModal } from "./react-flow/StickyNoteModal/StickyNoteModal";
+export { StickyNoteModal } from "workspace-ui/src/app/views/shared/RuleEditor/view/components/StickyNoteModal";
 
-export type {
-    IActivityStatus,
-    ActivityAction,
-    IActivityControlLayoutProps,
-    TimeUnits,
-}
+export type { IActivityStatus, ActivityAction, IActivityControlLayoutProps, TimeUnits };
